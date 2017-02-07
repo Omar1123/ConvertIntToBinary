@@ -15,6 +15,7 @@ public class NumberToBinaryConverted {
 
     private int number,remainder;
     Scanner scanner = new Scanner(System.in);    
+    private int info;
     
     /**
      * @param args the command line arguments
@@ -28,7 +29,6 @@ public class NumberToBinaryConverted {
         }
         catch (Exception e)
         {
-            e.printStackTrace();
         } 
     }
     
